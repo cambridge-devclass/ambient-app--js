@@ -21,40 +21,43 @@
     <!-- CSS -->
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="src/header.css">
-    <link rel="stylesheet" href="src/homepage.css">
-    <link rel="stylesheet" href="src/footer.css">
+    <link rel="stylesheet" href="src/savedsounds.css">
+    <link rel="stylesheet" href="src/soundsboard.css">
   </head>
 
   <body>
-    <div class="homepage">
+    <div class="app">
       <!-- Header -->
       <div id="header"></div>
       <script>
         fetch("src/header.html")
           .then(res => res.text())
-          .then(html => {
-            document.getElementById("header").innerHTML = html;
-          });
+          .then(html => { document.getElementById("header").outerHTML = html; });
       </script>
 
       <!-- Main -->
-      <div id="homepage"></div>
-      <script>
-        fetch("src/homepage.html")
-          .then(res => res.text())
-          .then(html => {
-            document.getElementById("homepage").innerHTML = html;
-          });
-      </script>
+      <div class="content">
+        <div id="savedsounds"></div>
+        <script>
+          fetch("src/savedsounds.html")
+            .then(res => res.text())
+            .then(html => { document.getElementById("savedsounds").outerHTML = html; });
+        </script>
+        
+        <div id="soundsboard"></div>
+        <script>
+          fetch("src/soundsboard.html")
+            .then(res => res.text())
+            .then(html => { document.getElementById("soundsboard").outerHTML = html; });
+        </script>
+      </div>
 
       <!-- Footer -->
       <div id="footer"></div>
       <script>
         fetch("src/footer.html")
           .then(res => res.text())
-          .then(html => {
-            document.getElementById("footer").innerHTML = html;
-          });
+          .then(html => { document.getElementById("footer").outerHTML = html; });
       </script>
     </div>
   </body>

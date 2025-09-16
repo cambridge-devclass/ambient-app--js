@@ -5,14 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2D4E66;
+  background-color: #363C46;
+  color: white;
 }
 
-
-.homepage {
+.app {
   padding: 1rem 2.5rem;
 }
 
-.homepage__content {
+.content {
   margin-top: 20vh;
 }

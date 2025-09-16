@@ -16,9 +16,12 @@ See [README.md](https://github.com/cambridge-devclass/ambient-app--js/blob/main/
 
 * Make sure you're a member of https://github.com/cambridge-devclass
 * Clone this repository to your local machine.
-* Double-click index.html file on your computer, it will open the web page in browser.
-* Create a new branch from "main".
-* Make your changes in the new branch, commit.
+* Run the app locally: <br>
+Install python <br>
+Run python server locally: `python -m http.server 8000` <br>
+Open the local server URL, e.g. http://0.0.0.0:8000/ 
+* Create a new branch from "main". Checkout to your branch.
+* Make your changes, commit.
 * Rebase your branch against the "main". Resolve conflicts if any. Push changes to your remote branch.
 * Create a pull request on GitHub to merge changes from your branch to master.
 
@@ -26,5 +29,8 @@ See [README.md](https://github.com/cambridge-devclass/ambient-app--js/blob/main/
 
 ### Deployment
 
-When your pull request is merged, GitHub pages will update automatically in a few minutes. 
-See the link in README.md. 
+We're using GitHub pages for this project.
+When your pull request is merged, the app will be updated automatically in a few minutes. URL: https://cambridge-devclass.github.io/ambient-app--js
+
+You can see deployment status in https://github.com/cambridge-devclass/ambient-app--js/deployments
+ 

@@ -7,14 +7,12 @@
 .header__logo {
   font-family: "Averia Gruesa Libre", system-ui;
   font-size: 1.2rem;
-}
-
-.header__buttons {
-  
+  color: #A6C2F2;
 }
 
 .header__button {
   cursor: pointer;
   opacity: 0.8;
   font-size: 1.7rem;
+  color: #A6C2F2;
 }

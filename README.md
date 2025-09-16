@@ -1,7 +1,7 @@
 # ambient-app--js
 "Ambient" is a simple productivity app that lets you play ambient sounds and combine them into custom mixes. Goals: Learn JavaScript, HTML, CSS, Git.
 
-App URL: https://cambridge-devclass.github.io/ambient-app--js/index.html <br>
+App URL: https://cambridge-devclass.github.io/ambient-app--js <br>
 
 Features:
 * Play one or multiple sounds, adjust volume
