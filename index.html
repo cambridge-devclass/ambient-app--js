@@ -23,42 +23,24 @@
     <link rel="stylesheet" href="src/header.css">
     <link rel="stylesheet" href="src/savedsounds.css">
     <link rel="stylesheet" href="src/soundsboard.css">
+
+    <!-- Scripts -->
+    <script src="index.js" defer></script>
   </head>
 
   <body>
     <div class="app">
       <!-- Header -->
       <div id="header"></div>
-      <script>
-        fetch("src/header.html")
-          .then(res => res.text())
-          .then(html => { document.getElementById("header").outerHTML = html; });
-      </script>
 
       <!-- Main -->
       <div class="content">
         <div id="savedsounds"></div>
-        <script>
-          fetch("src/savedsounds.html")
-            .then(res => res.text())
-            .then(html => { document.getElementById("savedsounds").outerHTML = html; });
-        </script>
-        
         <div id="soundsboard"></div>
-        <script>
-          fetch("src/soundsboard.html")
-            .then(res => res.text())
-            .then(html => { document.getElementById("soundsboard").outerHTML = html; });
-        </script>
       </div>
 
       <!-- Footer -->
       <div id="footer"></div>
-      <script>
-        fetch("src/footer.html")
-          .then(res => res.text())
-          .then(html => { document.getElementById("footer").outerHTML = html; });
-      </script>
     </div>
   </body>
 </html>
